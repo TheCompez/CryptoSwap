@@ -1,9 +1,8 @@
 # -------------------- PROJECT TEMPLATE INFO ---------------------------------------------
-#   Title   :                       CryptoSwap
+#   Title   :                       Project Template
 #   Version :                       1.0.12
 #   Author  :                       Kambiz Asadzadeh
-#   Url     :                       https://github.com/KambizAsadzadeh/CryptoSwap
-#   Template Url  :                 https://github.com/genyleap/Project-Template
+#   Url     :                       https://github.com/genyleap/Project-Template
 #   Organization  :                 The Genyleap
 # ----------------------------------------------------------------------------------------
 
@@ -20,7 +19,7 @@ include(FetchContent)
 
 # ------ PROJECT INFO ------
 # Options
-set(PROJECT_NAME "CryptoSwap" CACHE STRING "Project Name.") #You can change "ProjectTemplate" with your project name.
+set(PROJECT_NAME "Project-Template" CACHE STRING "Project Name.") #You can change "ProjectTemplate" with your project name.
 set(PROJECT_TARGET ${PROJECT_NAME} CACHE STRING "Project Target Name.")
 
 set(PROJECT_VERSION_MAJOR 1)
@@ -72,7 +71,7 @@ set(PROJECT_MAIN_TYPE "qtquick" CACHE STRING "Library System.")
 set(DEVELOPER_BUNDLE_IDENTIFIER com.kambizasadzadeh.app.${PROJECT_NAME} CACHE STRING "Developer Bundle Identifier.")
 
 #You can replace your project description with this string.
-set(PROJECT_DESCRIPTION "Crypto swap concept based on Qt Quick Technology." CACHE STRING "Project Description")
+set(PROJECT_DESCRIPTION "A template for modern C++ projects with useful features for developing cross-platform projects." CACHE STRING "Project Description")
 
 #Your project website address.
 set(PROJECT_HOMEPAGE_URL "https://github.com/genyleap/Project-Template" CACHE STRING "Project URL.")
